@@ -1,4 +1,4 @@
-//Hero Directory - Search for your hero!
+//Hero Directory - Search for your hero! comming soon
 
 const CHARACTER_API_URL = "http://gateway.marvel.com/v1/public/characters?";
 const tsHash1 =
