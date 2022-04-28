@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Marvel | Hero Quiz</title>
+</head>
+
+<body>
+    <!-- Header/Nav Section -->
+
+    <header class="header">
+        <nav class="header__nav">
+            <a class="header__logo-link" href="/"><img src="../assets/images/Marvel_Logo.svg.png" alt=""></a>
+
+            <div class="header__nav-container">
+                <ul class="header__nav-list">
+
+                    <li class="header__nav-item--up">
+                        <a class="header__nav-link--color" href="./hero-directory.html">Hero Directory</a>
+                    </li>
+                    <li class="header__nav-item--up">
+                        <a class="header__nav-link--color header__nav-link--active" href="./hero-quiz.html">Hero
+                            Personality Quiz</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="main">
+
+            <h1 class="main__title">The hero Personality Quiz</h1>
+
+            <div class="main__quiz-container">
+                <div class="main__quiz-header-container">
+                    <h2 class="main__quiz-question">Question Text</h2>
+                </div>
+                <ul class="main__quiz-answer-container">
+                    <li class="main__quiz-item">
+                        <button class="main__button main__answer main__answer-1">Answer1</button>
+                    </li>
+                    <li class="main__quiz-item">
+                        <button class="main__button main__answer main__answer-2">Answer2</button>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="../scripts/hero-quiz.js"></script>
+</body>
+
+</html>

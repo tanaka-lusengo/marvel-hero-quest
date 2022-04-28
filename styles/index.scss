@@ -1,0 +1,127 @@
+//resets"
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Avenger", Arial, Helvetica, sans-serif;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Avenger";
+  src: url("/assets/fonts/avengero-font/AvengeroRegular-zvgl.ttf");
+  font-weight: 400;
+}
+
+// --------------------------------------------------
+
+.header {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+
+  &__logo-link {
+    height: 20px;
+    width: 120px;
+    margin-top: 1.5rem; // 16px
+    color: #f0131e;
+  }
+
+  &__nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__nav-item--up {
+    padding: 1rem 3rem; // 16px
+  }
+
+  &__nav-link--color {
+    color: #e1e1e1;
+  }
+
+  &__nav-link--active {
+    color: #ffffff;
+    font-weight: 700;
+  }
+}
+
+//index
+
+.hero {
+  height: 100vh;
+
+  &__container {
+    padding: 40px;
+  }
+
+  &__title {
+    padding-bottom: 20px;
+  }
+
+  &__text {
+    padding: 20px;
+  }
+}
+
+// hero-quiz
+
+.main {
+  height: 100vh;
+  margin: 0 auto;
+
+  &__quiz-container {
+    margin: 0 auto;
+    padding: 40px;
+    height: 400px;
+  }
+
+  &__quiz-question {
+    padding-top: 50px;
+  }
+
+  &__quiz-answer-container {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  &__button {
+    margin: 20px;
+    background-color: #323232;
+    font-family: "Avenger";
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    width: 200px;
+    height: 2.5rem; // 40px
+    border-radius: 0.25rem; // 4px
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #000000;
+    }
+
+    &__button-reload {
+      margin: 20px;
+    }
+  }
+}
