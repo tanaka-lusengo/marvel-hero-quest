@@ -1,5 +1,7 @@
 # Marvel Hero Quest
-First 24hr Hackathon Project - A Vanilla JS Application Questionnaire to discover which Marvel Hero you relate to. 
+First 24hr Hackathon Project - A Vanilla JS Application Questionnaire to discover which Marvel Hero you relate to.
+
+You can find the site deployed here: https://marvel-hero-quest.herokuapp.com/
 
 ## Table of Content:
 - About The App
@@ -23,10 +25,10 @@ git clone git@github.com:tanaka-lusengo/marvel-hero-quest.git
 ```
 
 ```sh
-cd pair-hackaton-language-quiz
-open a live server to run index.html
+cd marvel-hero-quest
+open a live server to run home.html
 ```
 
 ## Contact
-- Tanaka Lusengo - tc.lusengo@gmail.com
-- Project Github Link: https://github.com/tanaka-lusengo/marvel-hero-quest
+- Tanaka Lusengo - tc.lusengo@gmail.com or https://www.linkedin.com/in/tanakalusengo/
+- Project Live Link: https://marvel-hero-quest.herokuapp.com
