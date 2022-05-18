@@ -21,7 +21,7 @@ li {
 
 @font-face {
   font-family: "Avenger";
-  src: url("/assets/fonts/avengero-font/AvengeroRegular-zvgl.ttf");
+  src: url("../assets/fonts/AvengeroRegular-zvgl/AvengeroRegular-zvgl.ttf");
   font-weight: 400;
 }
 .header {
@@ -30,12 +30,11 @@ li {
   background-color: black;
 }
 .header__logo-link {
-  height: 20px;
-  width: 120px;
+  height: 1.25rem;
+  width: 7.5rem;
   margin-top: 1.5rem;
   color: #f0131e;
 }
-
 .header__nav-list {
   display: flex;
   justify-content: center;
@@ -51,25 +50,23 @@ li {
   color: #ffffff;
   font-weight: 700;
 }
-
-.header__comming-soon {
-  margin-top: 35px;
-}
-
 .header__cover-comics {
-  margin-top: 10px;
-  width: 850px;
-  height: 500px;
+  margin: 1.25rem 0;
+  height: 28.125rem;
+  width: 43.75rem;
 }
 
+.hero {
+  height: 45vh;
+}
 .hero__container {
-  padding: 40px;
+  padding: 2.5rem;
 }
 .hero__title {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 .hero__text {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .main {
@@ -78,28 +75,28 @@ li {
 }
 .main__quiz-container {
   margin: 0 auto;
-  padding: 40px;
-  height: 400px;
+  padding: 2.5rem;
+  height: 25rem;
 }
 .main__quiz-question {
-  padding-top: 50px;
+  padding-top: 3.125rem;
 }
 .main__quiz-answer-container {
-  width: 500px;
+  width: 31.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25rem;
 }
 .main__button {
-  margin: 20px;
+  margin: 1.25rem;
   background-color: #323232;
   font-family: "Avenger";
   color: #ffffff;
   cursor: pointer;
   border: none;
-  width: 200px;
+  width: 12.5rem;
   height: 2.5rem;
   border-radius: 0.25rem;
   transition: 0.3s ease-in-out;
@@ -108,5 +105,5 @@ li {
   background-color: #000000;
 }
 .main__button__button-reload {
-  margin: 20px;
-} /*# sourceMappingURL=index.css.map */
+  margin: 1.25rem;
+}/*# sourceMappingURL=index.css.map */
