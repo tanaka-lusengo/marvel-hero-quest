@@ -12,8 +12,9 @@ You can find the site deployed here: https://marvel-hero-quest.herokuapp.com/
 
 Marvel Hero Quest uses these technologies to run:
 
+- [HTML]
+- [SCSS]
 - [JavaScript]
-- [CSS]
 
 ## Setup / Installation
 
