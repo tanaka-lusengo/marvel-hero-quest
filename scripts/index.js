@@ -1,5 +1,4 @@
 const CHARACTER_API_URL = "https://gateway.marvel.com/v1/public/characters?";
-
 const tsHash1 =
   "ts=1&apikey=d11e48a9c2a3ac9be1f3457a5899c1ac&hash=2b18905bed04764370c0b5b409f210a8";
 
@@ -35,7 +34,7 @@ Promise.all([
 
   let heroChoice = [
     `${globalArray[111].thumbnail.path}/portrait_uncanny.jpg`, // "Captain Marvel"
-    `${globalArray[448].thumbnail.path}/portrait_uncanny.jpg`, // "Spider-Man (Peter Parker)"
+    `${globalArray[449].thumbnail.path}/portrait_uncanny.jpg`, // "Spider-Man (Peter Parker)"
     `${globalArray[306].thumbnail.path}/portrait_uncanny.jpg`, // "Iron Man"
     `${globalArray[99].thumbnail.path}/portrait_uncanny.jpg`, // "Captain America"
     `${globalArray[32].thumbnail.path}/portrait_uncanny.jpg`, // "Black Panther"

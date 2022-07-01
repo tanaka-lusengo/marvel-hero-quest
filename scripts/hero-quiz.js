@@ -35,7 +35,7 @@ Promise.all([
 
   let heroChoice = [
     `${globalArray[111].name}<br><img src="${globalArray[111].thumbnail.path}/portrait_uncanny.jpg"/>`, // "Captain Marvel"
-    `${globalArray[448].name}<br><img src="${globalArray[448].thumbnail.path}/portrait_uncanny.jpg"/>`, // "Spider-Man (Peter Parker)"
+    `${globalArray[449].name}<br><img src="${globalArray[449].thumbnail.path}/portrait_uncanny.jpg"/>`, // "Spider-Man (Peter Parker)"
     `${globalArray[306].name}<br><img src="${globalArray[306].thumbnail.path}/portrait_uncanny.jpg"/>`, // "Iron Man"
     `${globalArray[99].name}<br><img src="${globalArray[99].thumbnail.path}/portrait_uncanny.jpg"/>`, // "Captain America"
     `${globalArray[32].name}<br><img src="${globalArray[32].thumbnail.path}/portrait_uncanny.jpg"/>`, // "Black Panther"
