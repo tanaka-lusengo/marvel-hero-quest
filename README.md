@@ -1,7 +1,7 @@
 # Marvel Hero Quest
 First 24hr Hackathon Project - A Vanilla JS Application Questionnaire to discover which Marvel Hero you relate to.
 
-You can find the site deployed here: https://marvel-hero-quest.herokuapp.com/
+You can find the site deployed here: https://marvel-hero-quest.vercel.app/
 
 ## Table of Content:
 - About The App
